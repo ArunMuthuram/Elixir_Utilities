@@ -1,4 +1,6 @@
-# GuessingGame
+#Elixir exercises
+
+##1) GuessingGame
 
 A simple command line based guessing game where the computer tries to guess a number between 1 and 20, written in elixir.  
 
