@@ -20,6 +20,10 @@ defmodule UtilityRunner do
       "2" ->
         IO.gets("Please enter the path for the file to be analysed\n") |> FileAnalyzer.analyze()
 
+      "3" ->
+        IO.gets("Please enter the username/email/id to generate the identicon\n")
+        |> Identicon.generate()
+
       "0" ->
         IO.puts("Utility exited successfully.")
 

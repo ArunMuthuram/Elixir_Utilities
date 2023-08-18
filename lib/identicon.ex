@@ -2,7 +2,7 @@ defmodule Identicon do
   defstruct name: "", seed: nil, color: nil, colored_pixels: nil
 
   def generate(name) do
-    %Identicon{name: name}
+    %Identicon{name: name |> String.trim()}
     |> set_seed
     |> set_color
     |> set_colored_pixel_indexes
