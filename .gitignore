@@ -1,3 +1,5 @@
 erl_crash.dump
 .vscode/settings.json
 _build
+output/*
+!output/.gitkeep
