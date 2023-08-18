@@ -13,5 +13,8 @@ defmodule ElixirUtility.MixProject do
 
   def application, do: []
 
-  defp deps, do: []
+  defp deps,
+    do: [
+      {:egd, git: "https://github.com/erlang/egd"}
+    ]
 end
