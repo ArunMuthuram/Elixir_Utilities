@@ -1,9 +1,9 @@
-defmodule GuessingGame.MixProject do
+defmodule ElixirUtility.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :guessing_game,
+      app: :elixir_utility,
       version: "0.1.0",
       elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,

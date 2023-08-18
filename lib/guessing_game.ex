@@ -66,5 +66,3 @@ defmodule GuessingGame do
   defp get_new_range(_low, _high, 1, :smaller), do: {1, 20}
   defp get_new_range(low, _high, guess, :smaller), do: {low, guess - 1}
 end
-
-GuessingGame.start_game()
