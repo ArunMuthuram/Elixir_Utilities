@@ -90,5 +90,3 @@ defmodule FileAnalyzer do
 
   defp format_size_in_kb(bytes), do: "#{(bytes / 1024) |> Float.round(1)} kb"
 end
-
-IO.gets("Please enter the path for the file to be analysed\n") |> FileAnalyzer.analyze()
